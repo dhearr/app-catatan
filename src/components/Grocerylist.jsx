@@ -16,7 +16,7 @@ export default function GroceryList({
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
     documentTitle: "data-catatan",
-    onAfterPrint: () => alert("Print  Success 💙💙💙 "),
+    onAfterPrint: () => alert("Print Success 💙💙💙 "),
   });
 
   let sortedItems;
